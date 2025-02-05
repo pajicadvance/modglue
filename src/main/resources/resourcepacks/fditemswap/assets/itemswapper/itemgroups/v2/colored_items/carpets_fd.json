@@ -1,0 +1,9 @@
+{
+  "type": "paletteModification",
+  "target": "itemswapper:v2/colored_items/carpets",
+  "addItems": [
+    "farmersdelight:canvas_rug",
+    "farmersdelight:half_tatami_mat",
+    "farmersdelight:full_tatami_mat"
+  ]
+}

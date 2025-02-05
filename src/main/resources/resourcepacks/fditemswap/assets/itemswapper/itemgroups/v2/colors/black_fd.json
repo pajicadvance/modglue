@@ -1,0 +1,8 @@
+{
+  "type": "paletteModification",
+  "target": "itemswapper:v2/colors/black",
+  "addItems": [
+    "chalk:black_chalk",
+    "chalk:black_glow_chalk"
+  ]
+}

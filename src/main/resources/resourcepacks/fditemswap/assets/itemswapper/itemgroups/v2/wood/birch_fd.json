@@ -1,0 +1,7 @@
+{
+  "type": "paletteModification",
+  "target": "itemswapper:v2/wood/birch",
+  "addItems": [
+    "farmersdelight:birch_cabinet"
+  ]
+}

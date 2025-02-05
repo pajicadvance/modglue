@@ -1,0 +1,7 @@
+{
+  "type": "paletteModification",
+  "target": "itemswapper:v2/earthen/dirt",
+  "addItems": [
+    "farmersdelight:rich_soil"
+  ]
+}

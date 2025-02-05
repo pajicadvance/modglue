@@ -1,0 +1,8 @@
+{
+  "type": "paletteModification",
+  "target": "itemswapper:v2/colors/lime",
+  "addItems": [
+    "farmersdelight:lime_canvas_sign",
+    "farmersdelight:lime_hanging_canvas_sign"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "type": "paletteModification",
+  "target": "itemswapper:v2/wood/acacia",
+  "addItems": [
+    "farmersdelight:acacia_cabinet"
+  ]
+}

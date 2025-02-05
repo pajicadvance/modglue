@@ -1,0 +1,8 @@
+{
+  "type": "paletteModification",
+  "target": "itemswapper:v2/colors/yellow",
+  "addItems": [
+    "farmersdelight:yellow_canvas_sign",
+    "farmersdelight:yellow_hanging_canvas_sign"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "paletteModification",
+  "target": "itemswapper:v2/nature/natural",
+  "addItems": [
+    "farmersdelight:rice_bale",
+    "farmersdelight:straw_bale",
+    "farmersdelight:rich_soil",
+    "farmersdelight:organic_compost"
+  ]
+}

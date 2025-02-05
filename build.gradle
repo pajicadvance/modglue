@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '1.7-SNAPSHOT'
+    id 'fabric-loom' version '1.9-SNAPSHOT'
     id 'maven-publish'
 }
 
@@ -79,12 +79,6 @@ dependencies {
     // Mouse Tweaks
     modImplementation "maven.modrinth:mouse-tweaks:${project.mousetweaks_version}"
 
-    // ElytraSwimFix
-    modImplementation "maven.modrinth:elytraswimfix:${project.elytraswimfix_version}"
-
-    // Trinkets
-    modImplementation "dev.emi:trinkets:${project.trinkets_version}"
-
     // Farmer's Delight Refabricated
     modImplementation("vectorwing:FarmersDelight:${project.fdrf_version}") {
         exclude(group: "net.fabricmc")
@@ -93,15 +87,14 @@ dependencies {
     // Raised
     modImplementation "maven.modrinth:raised:${project.raised_version}"
 
-    // Particular
-    modImplementation "maven.modrinth:particular:${project.particular_version}"
-    modImplementation "io.wispforest:owo-lib:${project.owo_version}"
+    // Notes
+    modImplementation "maven.modrinth:notes:${project.notes_version}"
 
-    // Particle Rain
-    modImplementation "maven.modrinth:particle-rain:${project.particlerain_version}"
-    modApi("me.shedaniel.cloth:cloth-config-fabric:${project.clothconfig_version}") {
-        exclude(group: "net.fabricmc.fabric-api")
-    }
+    // ItemSwapper
+    modImplementation "maven.modrinth:itemswapper:${project.itemswapper_version}"
+
+    // Another Furniture
+    modImplementation "maven.modrinth:another-furniture:${project.anotherfurniture_version}"
 }
 
 processResources {

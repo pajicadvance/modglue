@@ -4,7 +4,6 @@
   "package": "me.pajic.modglue.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "elytraswimfix.ElytraSwimFixMixin",
     "fdrf.HUDOverlaysMixin",
     "mousetweaks.MainMixin"
   ],
@@ -13,6 +12,6 @@
   },
   "client": [
     "PackSelectionScreenMixin",
-    "particlerain.RainDropParticleMixin"
+    "notes.SelectNoteScreenMixin"
   ]
 }

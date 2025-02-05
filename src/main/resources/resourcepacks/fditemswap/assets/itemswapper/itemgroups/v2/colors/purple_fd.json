@@ -1,0 +1,8 @@
+{
+  "type": "paletteModification",
+  "target": "itemswapper:v2/colors/purple",
+  "addItems": [
+    "farmersdelight:purple_canvas_sign",
+    "farmersdelight:purple_hanging_canvas_sign"
+  ]
+}

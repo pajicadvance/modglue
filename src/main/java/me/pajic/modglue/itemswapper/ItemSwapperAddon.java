@@ -38,6 +38,13 @@ public class ItemSwapperAddon {
                             ResourcePackActivationType.ALWAYS_ENABLED
                     );
                 }
+                if (FabricLoader.getInstance().isModLoaded("another_furniture")) {
+                    ResourceManagerHelper.registerBuiltinResourcePack(
+                            ResourceLocation.parse("modglue:anotherfurnitureitemswap"),
+                            modContainer,
+                            ResourcePackActivationType.ALWAYS_ENABLED
+                    );
+                }
             }
         });
     }

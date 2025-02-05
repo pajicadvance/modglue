@@ -1,0 +1,8 @@
+{
+  "type": "paletteModification",
+  "target": "itemswapper:v2/colors/magenta",
+  "addItems": [
+    "farmersdelight:magenta_canvas_sign",
+    "farmersdelight:magenta_hanging_canvas_sign"
+  ]
+}

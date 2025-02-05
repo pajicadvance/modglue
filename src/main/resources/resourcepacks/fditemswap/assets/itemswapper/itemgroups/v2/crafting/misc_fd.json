@@ -1,0 +1,9 @@
+{
+  "type": "paletteModification",
+  "target": "itemswapper:v2/crafting/misc",
+  "addItems": [
+    "farmersdelight:straw",
+    "farmersdelight:canvas",
+    "farmersdelight:tree_bark"
+  ]
+}
