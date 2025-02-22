@@ -38,14 +38,6 @@ repositories {
             includeGroup "maven.modrinth"
         }
     }
-    maven {
-        name = "Greenhouse Maven"
-        url = 'https://repo.greenhouse.house/releases/'
-    }
-    maven {
-        name "greenhouseSnapshots"
-        url "https://repo.greenhouse.house/snapshots"
-    }
 }
 
 dependencies {
@@ -79,11 +71,6 @@ dependencies {
     // Mouse Tweaks
     modImplementation "maven.modrinth:mouse-tweaks:${project.mousetweaks_version}"
 
-    // Farmer's Delight Refabricated
-    modImplementation("vectorwing:FarmersDelight:${project.fdrf_version}") {
-        exclude(group: "net.fabricmc")
-    }
-
     // Raised
     modImplementation "maven.modrinth:raised:${project.raised_version}"
 
@@ -95,6 +82,9 @@ dependencies {
 
     // Another Furniture
     modImplementation "maven.modrinth:another-furniture:${project.anotherfurniture_version}"
+
+    // Nyf's Quivers
+    modCompileOnly "maven.modrinth:nyfs-quivers:${project.nyfsquiver_version}"
 }
 
 processResources {
