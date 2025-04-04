@@ -12,6 +12,7 @@ This is primarily made for my personal modpacks and I'm hosting it on Modrinth f
 - **EMI + Better Tridents**: Adds repair recipe for Trident to EMI
 - **Mouse Tweaks + Bundle Scroll**: Disables item scrolling from Mouse Tweaks on bundles to let Bundle Scroll functionality take precedence
 - **Notes**: Fixes the notes list being cut off at the bottom of the screen
+- **Nullscape**: Added translations for biomes from Nullscape so the biome names can display properly on info overlays
 - **Nyf's Quivers + Raised**: Adjusts the selected slot HUD element according to Raised hotbar positioning if its set to display next to the hotbar
 - **ItemSwapper** list and palette support for the following mods:
   - Chalk (with Colorful Addon)
